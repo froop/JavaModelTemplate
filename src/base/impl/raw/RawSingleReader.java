@@ -1,7 +1,7 @@
 package base.impl.raw;
 
-import base.impl.raw.dto.RawKey;
-import base.impl.raw.dto.RawUnit;
+import base.impl.raw.transfer.RawKey;
+import base.impl.raw.transfer.RawUnit;
 
 /**
  * @param <K> Key

@@ -1,6 +1,6 @@
 package sample.impl.raw;
 
-import base.impl.raw.dto.RawKey;
+import base.impl.raw.transfer.RawKey;
 
 public class Sample1RawKey implements RawKey {
 	private String key1;
