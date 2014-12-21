@@ -9,6 +9,6 @@ import base.impl.raw.transfer.RawUnit;
  * @param <K> Key
  * @param <V> Value
  */
-public interface RawMultiReader<K extends RawCondition, V extends RawUnit> {
-	List<V> read(K key);
+public interface RawMultiReader<K extends RawCondition, V extends RawUnit>
+		extends RawDataReader<K, List<V>> {
 }

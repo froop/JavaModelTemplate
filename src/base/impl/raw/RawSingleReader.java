@@ -7,6 +7,6 @@ import base.impl.raw.transfer.RawUnit;
  * @param <K> Key
  * @param <V> Value
  */
-public interface RawSingleReader<K extends RawKey, V extends RawUnit> {
-	V read(K key);
+public interface RawSingleReader<K extends RawKey, V extends RawUnit>
+		extends RawDataReader<K, V> {
 }
